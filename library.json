@@ -1,0 +1,7 @@
+{
+    "name": "SomeLib",
+    "version": "0.0.0",
+    "build": {
+        "extraScript": "script/teste.py"
+    }
+}
