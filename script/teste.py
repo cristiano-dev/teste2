@@ -1,7 +1,9 @@
-print("#####################")
-print("#####################")
+Import("env")
+
 print("#####################")
 print("Deu certo")
 print("#####################")
-print("#####################")
-print("#####################")
+
+host = env.GetProjectOption("custom_ping_host")
+
+print( "Host: " + host )
