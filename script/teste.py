@@ -2,8 +2,8 @@ Import("env")
 
 print("#####################")
 print("Deu certo")
+print("version: 0.0.0")
 print("#####################")
 
-host = env.GetProjectOption("custom_ping_host")
-
-print( "Host: " + host )
+DIR = env.subst("$PROJECT_DIR")
+print( "DIR: " + DIR )
